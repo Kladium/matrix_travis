@@ -75,6 +75,7 @@ SCENARIO("matrix operator==" , "[oper==]") {
         for (int j = 0; j < matrix1.Columns(); j++)
         {
             REQUIRE(matrix1.Element(i,j) == matrix2.Element(i,j));
+            
         }
     }
 
