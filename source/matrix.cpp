@@ -108,6 +108,7 @@ bool Matrix::operator==(Matrix& other)const{
             for (int j = 0; j < columns; j++){
                 if(arr[i][j] != other.arr[i][j]){
                     return false;
+                    
                 }
             }
         }
